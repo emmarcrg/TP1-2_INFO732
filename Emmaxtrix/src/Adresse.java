@@ -4,9 +4,9 @@ public class Adresse {
     private String num_voie;
 
     public Adresse(Quartier q,  String v, String nv){
-        quartier=q;
-        voie=v;
-        num_voie=nv;
+        this.quartier=q;
+        this.voie=v;
+        this.num_voie=nv;
     }
 
 }
