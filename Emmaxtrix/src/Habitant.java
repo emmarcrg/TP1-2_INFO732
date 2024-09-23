@@ -1,13 +1,15 @@
+import java.util.ArrayList;
+
 public abstract class Habitant{
-    private NNIG identifiant;
-    private String nom;
-    private String prenom;
-    private Adresse ad;
-    private boolean combattant;
-    private String caracteristique;
-    private int annee_naissance;
-    private int poids;
-    private ArrayList<Casque> listeCasque;
+    public NNIG identifiant;
+    public String nom;
+    public String prenom;
+    public Adresse ad;
+    public boolean combattant;
+    public String caracteristique;
+    public int annee_naissance;
+    public int poids;
+    public ArrayList<Casque> listeCasque;
 
     public abstract boolean choisirCombattre();
 }

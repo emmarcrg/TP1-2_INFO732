@@ -5,7 +5,7 @@ public class Conservateur extends Habitant {
         this.identifiant = id;
         this.nom=nom;
         this.prenom=prenom;
-        this.adresse=adresse;
+        this.ad=adresse;
         this.poids=poids;
     }
 
