@@ -13,4 +13,7 @@ public class Combat {
         this.date_fin=df;
     }
 
+    public String toString(){
+        return this.nom + ", "+this.lieu;
+    }
 }

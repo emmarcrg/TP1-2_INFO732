@@ -15,4 +15,8 @@ public class Casque {
         this.combat=c;
     }
 
+    public String toString() {
+        return "Le casque de " + this.ennemi + " a été récupéré à " + this.combat.toString();
+    }
+
 }
