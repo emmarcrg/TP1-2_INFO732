@@ -11,4 +11,12 @@ public class Potion {
         this.dose_age=da;
     }
 
+    public int getIntervalle(){
+        return this.intervalle_prise;
+    }
+
+    public String getEffet(){
+        return this.effet;
+    }
+
 }
