@@ -6,7 +6,7 @@ public class NNIG {
     private String village;
     private int ordre_inscription;
 
-    public void NNING(String s, int an, int mn, int r, String v, int oi){
+    public NNIG(String s, int an, int mn, int r, String v, int oi){
 
         if (s!="F" || s!="M"){
             System.out.println("Veuillez choisir un seul charactère entre F et M pour définir le sexe du villageois.");
@@ -39,7 +39,8 @@ public class NNIG {
         if (String.valueOf(oi).length()!=3){
             System.out.println("Veuillez indiquer un code de trois charactères pour représenter l'ordre de naissance");
         }
-        else{this.ordre_inscription = oi;}        
+        else{this.ordre_inscription = oi;}     
+           
     }
 
     public int getAnneeNaissance(){

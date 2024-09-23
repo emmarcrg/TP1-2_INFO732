@@ -29,8 +29,7 @@ public class Conservateur extends Habitant {
         }else {
             return false;
         }
-        
-        
+         
     }
         
     public void enregistrerCasque(Habitant hab, Casque c){
