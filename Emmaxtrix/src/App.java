@@ -20,7 +20,8 @@ public class App {
         ArrayList<Combattant> liste_combattant= new ArrayList<>();
         liste_combattant.add(c1);
 
-        chef.convoc= new Convocation(liste_combattant, new Date());
+        Combat cbt = new Combat("guerre de ouf", "entrée de la gare", new Date(), new Date() );
+        chef.convoc= new Convocation(liste_combattant, cbt);
 
 
 
