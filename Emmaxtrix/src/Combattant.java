@@ -27,6 +27,7 @@ public class Combattant extends Habitant {
 
     public void partirCombattre(){
         // dans le cas où il est convoqué
+        System.out.println("Le combattant " + this.nom + "est parti au combat");
         
 
     }

@@ -26,7 +26,6 @@ public class PrisePotion {
             hab.derniere_prise=date_prise;
             hab.setCaracteristiques(potion.getEffet());
             System.out.println("Temps entre les prises respecté, effet de la potion sur l'habitant");
-
         }
     }
 
