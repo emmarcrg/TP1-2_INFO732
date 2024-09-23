@@ -32,6 +32,7 @@ public class Combattant extends Habitant {
 
     public void partirCombattre(Combat comb){
         // dans le cas où il est convoqué
+        System.out.println("Le combattant " + this.nom + "est parti au combat");
         this.comb=comb;
 
     }
