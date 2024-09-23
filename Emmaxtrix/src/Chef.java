@@ -1,5 +1,5 @@
 public class Chef extends Habitant {
-    private Convocation convoc;
+    public Convocation convoc;
 
     public Chef (NNIG id, String nom, String prenom, Adresse adresse,int poids){
         super();
