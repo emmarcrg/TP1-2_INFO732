@@ -1,7 +1,7 @@
 import java.sql.Date;
 import java.util.ArrayList;
 
-public class Convocation{
+public class Convocation {
     private ArrayList<Combattant> liste_combattants;
     private Date date_combat;
 

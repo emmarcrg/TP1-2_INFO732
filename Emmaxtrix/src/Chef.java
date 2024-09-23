@@ -12,8 +12,7 @@ public class Chef extends Habitant {
 
     @Override
     public boolean choisirCombattre() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'choisirCombattre'");
+        return true;
     }
     
 }
