@@ -15,10 +15,7 @@ public abstract class Habitant{
         this.combattant=false;
         this.listeCasque=new ArrayList<Casque>();
     }
-    public int getAnnee(){
-        //définir l'année de naissance d'un habitant
-        return 0;        
-    }
+   
     public abstract boolean choisirCombattre();
 
     public int getAnneeNaissance(){
