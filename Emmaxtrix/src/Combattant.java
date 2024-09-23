@@ -13,6 +13,7 @@ public class Combattant extends Habitant {
     }
 
     public boolean choisirCombattre() {
+        // dans le cas où il n'est pas convoqué
         return true;
     }
 
@@ -25,7 +26,9 @@ public class Combattant extends Habitant {
     }
 
     public void partirCombattre(){
+        // dans le cas où il est convoqué
         
+
     }
 
     

@@ -7,4 +7,10 @@ public class NonCombattant extends Habitant{
         this.ad=adresse;
         this.poids=poids;
     }
+
+    @Override
+    public boolean choisirCombattre() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'choisirCombattre'");
+    }
 }
