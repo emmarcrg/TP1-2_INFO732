@@ -1,6 +1,7 @@
 public class Combattant extends Habitant {
 
     private String specialite;
+    private Combat comb;
 
     public Combattant (NNIG id, String nom, String prenom, Adresse adresse,int poids, String s){
         super();
@@ -18,16 +19,20 @@ public class Combattant extends Habitant {
     }
 
     public void recevoirInfosCombat(){
-
+        if(this.comb!=null){
+            System.out.println(this.comb.toString());
+        }else{
+            System.out.println("Pas de combat en cours");
+        }
     }
 
     public void setSpecialite(String spe){
         this.specialite=spe;
     }
 
-    public void partirCombattre(){
+    public void partirCombattre(Combat comb){
         // dans le cas où il est convoqué
-        
+        this.comb=comb;
 
     }
 
