@@ -7,7 +7,6 @@ public abstract class Habitant{
     public Adresse ad;
     public boolean combattant;
     public String caracteristique;
-    public int annee_naissance;
     public int poids;
     public ArrayList<Casque> listeCasque;
 
@@ -21,4 +20,8 @@ public abstract class Habitant{
         return 0;        
     }
     public abstract boolean choisirCombattre();
+
+    public int getAnneeNaissance(){
+        return identifiant.getAnneeNaissance();
+    }
 }

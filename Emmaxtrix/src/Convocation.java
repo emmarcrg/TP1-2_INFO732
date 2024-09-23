@@ -11,5 +11,8 @@ public class Convocation{
     }
     public void convoquer (){
         //Convoquer l'ensemble des combattants de la liste
+        for (Combattant combattant : liste_combattants) {
+            combattant.partirCombattre();
+        }
     }
 }

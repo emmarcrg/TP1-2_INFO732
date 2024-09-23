@@ -46,5 +46,4 @@ public class NNIG {
         return this.annee_naissance;
     }
 
-
 }
